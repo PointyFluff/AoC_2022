@@ -22,6 +22,9 @@ fn main() {
             right.0.parse::<u32>().unwrap(),
             right.1.parse::<u32>().unwrap(),
         );
+        // had a really cool solution with ranges,
+        // but that didn't behave as expected.
+        // back to c-style.
 
         // does one set contain the other?
         if l.0 <= r.0 && l.1 >= r.1 || r.0 <= l.0 && r.1 >= l.1 {
