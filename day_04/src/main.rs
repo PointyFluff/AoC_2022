@@ -24,6 +24,7 @@ fn main() {
         );
         // had a really cool solution with ranges,
         // but that didn't behave as expected.
+        // (..=) and (..) both produced the wrong results.
         // back to c-style.
 
         // does one set contain the other?
